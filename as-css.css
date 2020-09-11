@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html,body{
+	height: 100%;
+}
+.contaneir{
+	width: 100%;
+	height: 100%;
+	background: Silver;
+}
+.menu ul{
+	display: inline-flex;
+	background: #FFA07A;
+	width: 100%;
+	height: 50px;
+}
+.menu ul li{
+	list-style: none;
+	padding-right: 30px;
+	padding-left: 30 px;
+	padding-top: 15px;
+
+	color: #FFA07A;
+	cursor: pointer;
+	font-size: 16px;
+	
+}
+.logo{
+	margin-top: -30px !important;
+	padding-left: 20px;
+	margin-right: 100px;
+}
+.HomeBtn a {
+        color: white;
+        border: none;
+        padding: 5px 20px !important;
+        display: inline-block;
+        text-decoration: none;
+        font: bold 18px sans-serif;
+        background: #FFA07A;
+        -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
+        transition: background 2s; /* For modern browsers */
+    }
+.HomeBtn a:hover {
+        background: white;
+		color: #FFA07A;
+    }
+.ServicesBtn a {
+        color: white;
+        border: none;
+        padding: 5px 20px !important;
+        display: inline-block;
+        text-decoration: none;
+        font: bold 18px sans-serif;
+        background: #FFA07A;
+        -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
+        transition: background 2s; /* For modern browsers */
+    }
+.ServicesBtn a:hover {
+        background: white;
+		color: #FFA07A;
+    }
+.ProductBtn a {
+        color: white;
+        border: none;
+        padding: 5px 20px !important;
+        display: inline-block;
+        text-decoration: none;
+        font: bold 18px sans-serif;
+        background: #FFA07A;
+        -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
+        transition: background 2s; /* For modern browsers */
+    }
+.ProductBtn a:hover {
+        background: white;
+		color: #FFA07A;
+    }
+.AboutBtn a {
+        color: white;
+        border: none;
+        padding: 5px 20px !important;
+        display: inline-block;
+        text-decoration: none;
+        font: bold 18px sans-serif;
+        background: #FFA07A;
+        -webkit-transition: background 2s; /* For Safari 3.0 to 6.0 */
+        transition: background 2s; /* For modern browsers */
+    }
+.AboutBtn a:hover {
+        background: white;
+		color: #FFA07A;
+    }
+.SignUpBtn a{
+	top: 7px;
+	right: 60px;
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#FFA07A,#FFA07A),radial-gradient(circle at top left,white,white);
+	background-origin: border-box;
+	background-clip: content-box,border-box;
+}
+.SignUpBtn a span{
+	display: block;
+	padding: 8px 22px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  margin-left: 10px;
+  background: #808080;
+  float: left;
+  margin-top: 50px;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.detail {
+  padding: 2px 16px;
+}
+
+.detail p{
+  padding-bottom:4px;
+}
+
+
+.blockk{
+	display: block;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; 
+  float: left;
+  margin-top: 50px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  margin-left: 5px;
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-card-back {
+  background-color: #808080;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.para{
+width:70%;
+height:80%;
+top: 25%;
+left: 750px;
+position: absolute;
+
+}
+.text-hp{
+	width:50%;
+	float:left;
+}
+
+.text-hp h1{
+	font-size: 43px;
+	width: 640px;
+	position: relative;
+	margin-left: 40px;
+	
+}
+
+.text-hp p{
+	width: 650px;
+	font-size: 15px;
+	margin: 20px 0 30px 60px;
+	line-height: 25px;
+}
+
+.text-hp h3{
+	font-size: 30px;
+	width: 700px;
+	position: relative;
+	margin-left: 60px;
+	color: #808080;
+	
+}
+
+
+
